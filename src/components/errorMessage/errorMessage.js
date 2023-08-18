@@ -1,8 +1,9 @@
-import img from "./unlike.svg"
+import img from './error.gif';
 
-const ErrorMessage=()=>{
+const ErrorMessage = () => {
     return (
-        <img src={img} style={{width:"250px", height:"250px", margin: "0 auto"}} alt="ddd"/>
+        <img style={{ display: 'block', width: "250px", height: "250px",objectFit: 'contain', margin: "0 auto"}}  src={img} alt="Error"/>
     )
 }
-export default ErrorMessage ;
+
+export default ErrorMessage;
